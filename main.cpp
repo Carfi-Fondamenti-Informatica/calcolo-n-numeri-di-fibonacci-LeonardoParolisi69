@@ -15,7 +15,8 @@ cin>> n;
 
             for (int i = 2; i < n; ++i) {
                 fibonacci=primo+secondo;
-                primo=fibonacci;
+                primo=secondo;
+                secondo=fibonacci;
                 cout<< fibonacci <<endl;
             }
         }
